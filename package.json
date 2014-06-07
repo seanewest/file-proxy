@@ -1,0 +1,30 @@
+{
+  "name": "file-proxy",
+  "version": "0.0.0",
+  "description": "Create a virtual file directory in an express-like way",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/seanewest/file-proxy.git"
+  },
+  "keywords": [
+    "file",
+    "proxy",
+    "fuse",
+    "vfs",
+    "virtual"
+  ],
+  "author": "Sean West",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seanewest/file-proxy/issues"
+  },
+  "homepage": "https://github.com/seanewest/file-proxy",
+  "dependencies": {
+    "console-stream": "^0.1.1",
+    "fuse4js": "^0.1.9"
+  }
+}
